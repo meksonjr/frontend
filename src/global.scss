@@ -34,4 +34,69 @@
 
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
-@import "@ionic/angular/css/palettes/dark.system.css";
+// @import "@ionic/angular/css/palettes/dark.system.css";
+
+.header {
+  ion-grid {
+    background-color: #2f558d;
+    padding-bottom: 25px;
+  }
+
+  ion-button {
+    color: white;
+  }
+
+  ion-button:hover {
+    text-decoration: underline;
+  }
+}
+
+.perfil {
+  ion-row {
+    background-color: #2f558d;
+  }
+
+  ion-col {
+    padding: 0;
+  }
+
+  img {
+    padding: 20px;
+    width: 70%;
+    height: 100%;
+    border-radius: 50%;
+  }
+h1 {
+  font-size: 60px;
+}
+  p {
+    margin-top: 10px;
+  }
+}
+
+.noticia {
+  h1 {
+    margin: 0;
+  }
+  p {
+    margin: 0;
+    font-size: 12px;
+    word-wrap: break-word;
+  }
+
+}
+
+.verTudo {
+  text-align: center;
+  margin-right: 25%;
+
+  ion-button {
+    font-size: 16px;
+    color: blue;
+    font-weight: bolder;
+  }
+
+  ion-button:hover {
+    text-decoration: underline;
+  }
+}
